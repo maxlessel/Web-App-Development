@@ -1,0 +1,35 @@
+footer {
+    background-color: lightblue;
+    font: Arial;
+    color: darkblue;
+    padding: 10px;
+    border: 1px dashed darkblue;
+}
+
+.notice {
+    width: 80%;
+    text-align: center;
+}
+
+.headline {
+    color: orange;
+    text-decoration: dotted;
+    text-decoration-color: orange;
+}
+
+h1 {
+    text-shadow: blue;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    background-color: rgba(173, 216, 230, 0.5);
+    font-size: 4em;
+    font: sans-serif;
+}
+
+.section {
+    font: Arial;
+    color: red;
+    font-size: 1.2em;
+    background-color: white;
+    width: 80%;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
