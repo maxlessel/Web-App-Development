@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+}
+
+.left-sidebar {
+  width: 20%;
+  background-color: #9fb0b3;
+  padding: 10px;
+}
+
+.right-sidebar {
+  width: 20%;
+  background-color: #9fb0b3;
+  padding: 10px;
+}
+
+header {
+  background-color: #2F6B73;
+  color: white;
+  padding: 10px;
+}
+
+main {
+    padding: 10px;
+    text-align: center;
+}

@@ -1,0 +1,16 @@
+body {
+    font-size: 12pt;
+    color: #000;
+}
+
+.itinerary {
+    background-color: none;
+}
+
+.sidebar {
+    display: none;
+}
+
+main {
+    width: 100%;
+}
