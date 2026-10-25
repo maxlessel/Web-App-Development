@@ -1,0 +1,106 @@
+:root {
+    --primary-color: green;
+    --accent-color: rgb(121, 135, 121);
+    --font-stack: Arial;
+    --line-height: 1.6;
+    --background-color: white;
+}
+
+body { 
+    background-color: var(--background-color); 
+    font-family: Arial, sans-serif; 
+    line-height: var(--line-height); 
+    color: var(--primary-color);
+}
+
+header nav a:hover {
+    color: teal;
+    text-decoration: underline;
+}
+
+h1 {
+    background-color: var(--background-color);
+}
+
+article h2 {
+    color: darkgreen;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+p {
+    accent-color: var(--accent-color);
+}
+
+.highlight {
+    background-color: yellow;
+    font-style: italic;
+}
+
+#main-title {
+    font-size: 36px;
+    text-align: center;
+}
+
+nav a:visited {
+    color: var(--accent-color);
+}
+
+header {
+    background-image: url('ch4images/header-bg.jpg');
+    background: linear-gradient(to right, rgba(0,90,160,0.55), rgba(80,170,255,0.35)), url('ch4images/header-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    color: white;
+
+}
+
+img {
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+.caption-overlay {
+    background-color: rgba(0,0,0,0.6);
+    color:white;
+    padding: 20px 34px;
+}
+
+.cta-card {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    border-radius: 6px;
+    padding: 16px;
+    background-color: white;
+    display: inline-block;
+}
+
+.cta-card button {
+    background-color: #008080;
+    color: white;
+    border: none;
+    padding: 9px 20px;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-card button:hover {
+    background-color: #00b3b3
+}
+
+figure {
+    margin: 20px 0;
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 0.95em;
+    color: #666;
+}
