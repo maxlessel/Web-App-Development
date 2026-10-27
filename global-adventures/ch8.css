@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+thead {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+caption {
+    caption-side: top;
+    font-weight: bold;
+    padding: 8px;
+}
+
+th {
+    font-size: 1.1em;
+    background-color: #eeeeee;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #e0f7fa;
+}
+
+td.numeric {
+    text-align: right;
+}
+

@@ -1,0 +1,44 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+thead {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+    background-color: #e0f7fa;
+}
+
+td.numeric {
+    text-align: right;
+}
+
+tbody tr:nth-child(3n) {
+    border-bottom-style: solid;
+}
+
+th.colored {
+    background-color: red;
+}
+
+td:nth-of-type(1) {
+    text-align: center;
+}
+/* this is to center the time of day column all at once */
+
+.table-wrapper {
+    overflow-x: auto;
+}
