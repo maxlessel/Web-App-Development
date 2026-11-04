@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Us (Styled)</title>
+  <link rel="stylesheet" href="ch9.css">
+</head>
+
+<body>
+    <h1>Contact Us</h1>
+    <form class="panel" method="post">
+        <p>
+            <label for="name">Name:</label>
+            <input type="text" id="name" accesskey="n" tabindex="1" required>
+        </p>
+        <p>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" accesskey="e" tabindex="2" required>
+        </p>
+        <p>
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" rows="5" cols="40" tabindex="3"></textarea>
+        </p>
+        <p class="buttons">
+            <input type="submit" value="submit" tabindex="4">
+        </p>
+    </form>
+</body>

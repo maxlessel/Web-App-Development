@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Register</title>
+  <link rel="stylesheet" href="ch9.css">
+</head>
+
+<body>
+    <h1>Create Your Account</h1>
+    <form class="panel" action="https://formspree.io/f/mzeeoazq" method="post">
+        <input type="hidden" name="_subject" value="New registration from the Global Adventures site">
+        <p>
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" autocomplete="name" required>
+        </p>
+        <p>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" autocomplete="email" required>
+        </p>
+        <p>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" autocomplete="username" minlength="4" maxlength="20" required>
+        </p>
+        <p>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" autocomplete="new-password" minlength="8" required>
+        </p>
+        <p class="agree">
+            <input type="checkbox" id="terms" name="terms" value="agreed" required>
+            <label for="terms">I agree to the site rules</label>
+        </p>
+        <p class="buttons">
+            <input type="submit" value="Register">
+        </p>
+    </form>
+</body>
+
