@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Trip Inquiry</title>
+  <link rel="stylesheet" href="ch9lab.css">
+</head>
+
+<body>
+    <h1>Plan Your Trip</h1>
+    <form id="inquiry" action="#" method="post">
+        <p>
+            <label for="fullname">Full Name:</label>
+            <input accesskey="n" type="text" tabindex="1" id="fullname" required>
+        </p>
+        <p>
+            <label for="email">Email:</label>
+            <input type="email" id="email" tabindex="2" required>
+        </p>
+        <p>
+            <label for="destination">Destination:</label>
+            <select id="destination" tabindex="3" required>
+                <optgroup label="Europe">
+                    <option value="italy" selected>Italy</option>
+                    <option value="france">France</option>
+                </optgroup>
+                <optgroup label="Asia">
+                    <option value="japan">Japan</option>
+                    <option value="china">China</option>
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <fieldset>
+                <legend>Travel style</legend>
+                <input type="radio" id="solo" name="triptype" value="single" checked>
+                <label for="single">Single</label>
+                <input type="radio" id="group" name="triptype" value="couple">
+                <label for="couple">Couple</label>
+                <input type="radio" id="family" name="triptype" value="family">
+                <label for="family">Family</label>
+            </fieldset>
+        </p>
+        <p>
+            <fieldset>
+                <legend>Extras</legend>
+                <input type="checkbox" id="first-class" name="extras" value="first-class">
+                <label for="first-class">First Class Flights</label>
+                <input type="checkbox" id="tour-guides" name="extras" value="tour-guides">
+                <label for="tour-guides">Tour Guides</label>
+                <input type="checkbox" id="wifi" name="extras" value="wifi">
+                <label for="wifi">WiFi</label>
+            </fieldset>
+        </p>
+        <p>
+            <label for="comments">Questions or Concerns?</label><br>
+            <textarea id="comments" name="comments" rows="6" cols="60" tabindex="5"></textarea>
+        </p>
+         <p class="buttons">
+            <input type="image" tabindex="6" src="images/sendButton.png" alt="Send your inquiry" width="100" height="100">
+        </p>
+    </form>
+</body>
+
+<footer>
+    <p>*there were no images to download on the canvas course, so i just used one from the internet</p>
+</footer>

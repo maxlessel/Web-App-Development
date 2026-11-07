@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Trip Request</title>
+  <link rel="stylesheet" href="ch9lab.css">
+</head>
+
+<body>
+    <h1>Trip Request</h1>
+    <form id="request" method="post">
+         <p>
+            <label for="fullname">Full Name:</label>
+            <input type="text" tabindex="1" id="fullname" required>
+        </p>
+        <p>
+            <label for="email">Email:</label>
+            <input type="email" id="email" tabindex="2" required>
+        </p>
+        <p>
+            <label for="blog">Your travel blog (optional)</label>
+            <input type="url" id="blog" tabindex="3" placeholder="https://">
+        </p>
+        <p>
+            <label for="travelers">Number of travelers</label>
+            <input type="number" id="travelers" tabindex="4" min="1" value="1" required>
+        </p>
+        <p>
+            <label for="date">Departure date</label>
+            <input type="date" id="date" tabindex="5" min="2027-01-01" required>
+        </p>
+        <p>
+            <label for="budget">Budget</label>
+            <input type="range" id="budget" tabindex="6" min="500" max="5000" step="100" value="2500" required>
+        </p>
+        <p>
+            <label for="color">Pick a color for your trip folder.</label>
+            <input type="color" id="color" tabindex="7" required>
+        </p>
+        <p>
+            <label for="city">Favorite city</label>
+            <input type="text" id="city" list="cities" tabindex="8" required>
+            <datalist id="cities">
+                <option value="Rome">
+                <option value="Florence">
+                <option value="Paris">
+                <option value="Monaco City">
+            </datalist>
+        </p>
+        <p>
+            <label for="zip">Zip or postal code</label>
+            <input type="text" id="zip" pattern="[0-9]{5}" tabindex="9" required>
+        </p>
+        <label for="submit">Send request</label>
+        <button type="submit" tabindex="10">Submit</button>
+    </form>
+</body>
